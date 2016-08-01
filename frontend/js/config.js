@@ -6,7 +6,7 @@ module.exports = function (app) {
         $stateProvider
             .state("main",{
                 url:"/main",
-                templateUrl: "views/main.html"
+                templateUrl: "views/web-page.html"
             })
         })
     .run(function($rootScope, $state) {
